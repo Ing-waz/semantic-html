@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example Form</title>
+</head>
+<body>
+  <h1>Sign Up</h1>
+  <form>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <label for="github-username">Github Username:</label>
+    <input type="text" id="github-username" name="github-username"><br>
+
+    <fieldset>
+      <legend>Choose your Github plan:</legend>
+      <input type="radio" id="enterprise" name="plan" value="Enterprise">
+      <label for="enterprise">Enterprise</label><br>
+
+      <input type="radio" id="pro" name="plan" value="Pro">
+      <label for="pro">Pro</label><br>
+
+      <input type="radio" id="free" name="plan" value="Free">
+      <label for="free">Free</label><br>
+    </fieldset>
+
+    <input type="checkbox" id="remember-me" name="remember-me">
+    <label for="remember-me">Remember Me</label><br>
+
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
